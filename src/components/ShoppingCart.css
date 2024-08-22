@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 213, 161);
+}
+
+.container{
+    margin: 20px 0px;
+    padding: 0px 30px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: rgb(250, 227, 200);
+}
+
+h1{
+    text-align: center;
+}
+
+#mycart{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img{
+    height: 250px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.products .product2,.product4{
+    margin-left: 100px;
+}
+
+.product2,.product4,.product1,.product3{
+    margin-top: 35px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+}
+
+.add button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quantities{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.quantities button:last-child{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: green;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quantities button:nth-child(1){
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: red;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
